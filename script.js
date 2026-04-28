@@ -4,7 +4,11 @@ let h1 = document.querySelector('h1')
 
 let btnStart = document.getElementById('btnStart')
 let btnStop = document.getElementById('btnStop')
+
 let gif = document.getElementById('gif')
+let giff = document.getElementById('giff')
+
+giff.style.display = 'none'
 
 btnStop.style.display = 'none'
 
@@ -15,7 +19,11 @@ function start() {
     clearInterval(cron)
 
     number = 0
-    
+
+    gif.style.display = 'none'
+    giff.style.display = 'inline-block'
+
+    h1.classList.remove('piscar')
 
     btnStart.style.display = 'none'
     btnStop.style.display = 'inline-block'
@@ -41,8 +49,13 @@ function start() {
 function reset() {
     clearInterval(cron)
 
+    gif.style.display = 'inline-block'
+    giff.style.display = 'none'
+
     number = 0
     h1.innerHTML = '00:00:00<span>.00</span>'
+
+    h1.classList.remove('piscar')
 
     btnStop.style.display = 'none'
     btnReset.style.display = 'none'
@@ -53,6 +66,9 @@ function reset() {
 
 function stop() {
     clearInterval(cron)
+
+    gif.style.display = 'inline-block'
+    giff.style.display = 'none'
 
     h1.classList.remove('piscar')
     
