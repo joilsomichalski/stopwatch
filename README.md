@@ -12,7 +12,7 @@ Para visualizar o projeto localmente, basta abrir o arquivo `index.html` no nave
 - Parar cronômetro
 - Reiniciar contagem
 - Alternância visual entre botões de Start e Stop
-- Exibição do tempo no formato `00:00:00`
+- Exibição do tempo no formato `00:00:00.00`
 - Animação visual ao pausar a contagem
 
 ## Tecnologias Utilizadas
