@@ -33,7 +33,14 @@ function start() {
 function stop() {
     clearInterval(cron)
 
-    btnStop.style.display = 'none'
-    btnStart.style.display = 'inline-block'    
+    h1.classList.remove('piscar')
+    
+      setTimeout(function() {
+        h1.classList.add('piscar')
+    }, 10)
 
+    btnStop.style.display = 'none'
+    btnStart.style.display = 'inline-block'
+    
+    btnStart.innerHTML = 'Restart'
 }

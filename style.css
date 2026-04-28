@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family:serif;
+}
+
+body{
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.principal{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: solid 8px #141111;
+    border-radius: 50%;
+    box-shadow:
+    0 0 15px rgba(255, 255, 255, 0.8),
+    0 0 35px rgba(173, 135, 201, 0.5),
+    0 0 60px rgba(255, 255, 255, 0.25);
+}
+
+img{
+    width: 180px;
+    height: 150px;
+    margin: 0 15px;
+}
+
+h1{
+    font-size: 55px;
+    color: #fff;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+button{
+  padding: 10px 50px;
+  margin-top: 10px;
+  background: #000000;
+  color: #fff;
+  font-size: 28px;
+  border-radius: 30px;
+
+  cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.02);
+}
+
+button:active{
+    font-size: 30px;
+    color: #c40d0d;
+}
+
+.piscar {
+    animation: piscarH1 0.5s linear 3;
+}
+
+@keyframes piscarH1 {
+    0% {
+        opacity: 1;
+        font-size: 60px;
+    }
+
+    50% {
+        opacity: 0;
+        font-size: 60px;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 60px;
+    }
+}
