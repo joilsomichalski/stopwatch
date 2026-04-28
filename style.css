@@ -41,6 +41,14 @@ h1{
     color: #fff;
     margin-top: -10px;
     margin-bottom: 10px;
+    font-variant-numeric: tabular-nums;
+}
+
+h1 span {
+    font-size: 28px;
+    display: inline-block;
+    min-width: 45px;
+    text-align: left;
 }
 
 button{
