@@ -22,9 +22,7 @@ O projeto exibe o tempo em horas, minutos, segundos e centésimos, atualizando a
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
+**HTML5** | **CSS3** | **JavaScript**
 
 ## Conceitos praticados
 
