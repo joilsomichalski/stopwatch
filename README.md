@@ -1,27 +1,40 @@
 # Stopwatch
 
-Cronômetro digital desenvolvido com HTML, CSS e JavaScript. O projeto permite iniciar, parar e reiniciar a contagem, exibindo o tempo em formato de horas, minutos e segundos e centésimos.
+Cronômetro digital desenvolvido com **HTML**, **CSS** e **JavaScript**, com controles de início, pausa e reinício da contagem.
 
-## Visualização
+## Demonstração
 
-Para visualizar o projeto localmente, basta abrir o arquivo `index.html` no navegador.
+Acesse o projeto online: [stopwatch-woad-five.vercel.app](https://stopwatch-woad-five.vercel.app)
+
+## Visão geral
+
+O projeto exibe o tempo em horas, minutos, segundos e centésimos, atualizando a interface em tempo real conforme a interação do usuário. Foi criado para praticar controle de intervalo, manipulação do DOM e mudanças visuais de estado.
 
 ## Funcionalidades
 
 - Iniciar cronômetro
 - Parar cronômetro
 - Reiniciar contagem
-- Alternância visual entre botões de Start e Stop
+- Alternância visual entre botões de start e stop
 - Exibição do tempo no formato `00:00:00.00`
 - Animação visual ao pausar a contagem
+- Layout simples e responsivo
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Como Executar
+## Conceitos praticados
+
+- Manipulação do DOM
+- Controle de tempo com `setInterval`
+- Atualização dinâmica da interface
+- Controle de estados com JavaScript
+- Animações com CSS
+
+## Como executar
 
 ```bash
 git clone https://github.com/joilsomichalski/stopwatch.git
@@ -30,7 +43,7 @@ cd stopwatch
 
 Depois, abra o arquivo `index.html` no navegador.
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```text
 stopwatch/
@@ -40,17 +53,12 @@ stopwatch/
 └── script.js
 ```
 
-## Aprendizados
+## Melhorias planejadas
 
-Neste projeto, pratiquei manipulação do DOM, controle de intervalo com `setInterval`, exibição dinâmica de tempo, alteração de botões com JavaScript e animações com CSS.
-
-## Melhorias Futuras
-
-- Adicionar botão de reset - Ok
 - Adicionar marcação de voltas
-- Criar histórico dos tempos pausados
-- Ajustar a contagem para trabalhar com segundos reais ou centésimos - Ok
-- Publicar o projeto com GitHub Pages, Netlify ou Vercel
+- Criar histórico de tempos pausados
+- Melhorar acessibilidade dos botões
+- Adicionar testes manuais documentados no README
 
 ## Autor
 
