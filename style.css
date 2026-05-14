@@ -112,16 +112,16 @@ button:active{
     @keyframes piscarH1 {
     0% {
         opacity: 1;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     50% {
         opacity: 0;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     100% {
         opacity: 1;
-        font-size: 40px;
+        font-size: 35px;
     }
 }
