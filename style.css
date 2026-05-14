@@ -96,7 +96,7 @@ button:active{
 @media (max-width: 980px) {
 .principal {
     max-width: 350px;
-    height: 350;
+    height: 350px;
   }
 
 #gif, #giff {
@@ -106,22 +106,22 @@ button:active{
 }
 
     h1{
-    font-size: 40px;
+    font-size: 38px;
     }
 
     @keyframes piscarH1 {
     0% {
         opacity: 1;
-        font-size: 37px;
+        font-size: 40px;
     }
 
     50% {
         opacity: 0;
-        font-size: 37px;
+        font-size: 40px;
     }
 
     100% {
         opacity: 1;
-        font-size: 37px;
+        font-size: 40px;
     }
 }
