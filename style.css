@@ -104,10 +104,15 @@ body{
     height: 350px;
   }
 
-#gif, #giff {
+#gif {
     width: 160px;
     height: 120px;
     object-fit: contain;
+}
+
+#giff {
+    width: 130px;
+    height: 110px;
 }
 
     h1{
