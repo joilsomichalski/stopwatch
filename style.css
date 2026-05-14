@@ -109,9 +109,19 @@ button:active{
     font-size: 40px;
     }
 
-h1 span {
-    font-size: 24px;
-    display: inline-block;
-    min-width: 42px;
-    text-align: left;
+    @keyframes piscarH1 {
+    0% {
+        opacity: 1;
+        font-size: 40px;
+    }
+
+    50% {
+        opacity: 0;
+        font-size: 40px;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 40px;
+    }
 }
