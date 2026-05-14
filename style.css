@@ -130,7 +130,10 @@ body{
         font-size: 43px;
     }
 
-    button{
-        font-size: 15px;
+button{
+    font-size: 12px;
     }
+
+button:active{
+    font-size: 15px;
 }
